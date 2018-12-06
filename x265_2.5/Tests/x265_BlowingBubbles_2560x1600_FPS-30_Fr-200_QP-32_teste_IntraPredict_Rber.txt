@@ -1,0 +1,5 @@
+
+add_approx 140510928832800 140510928833057
+
+set_read_ber 0.000000
+set_write_ber 0.100000

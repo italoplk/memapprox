@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="../build/linux" name="0">
+      <df name="cmake">
+      </df>
+      <df name="CMakeFiles">
+        <df name="2.8.12.2">
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="3.5.1">
+          <df name="CompilerIdASM_YASM">
+          </df>
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="clean-generated.dir">
+        </df>
+        <df name="cli.dir">
+          <df name="input">
+          </df>
+          <df name="output">
+          </df>
+        </df>
+        <df name="CMakeRelink.dir">
+        </df>
+        <df name="CMakeTmp">
+        </df>
+        <df name="Progress">
+        </df>
+        <df name="uninstall.dir">
+        </df>
+        <df name="x265-shared.dir">
+        </df>
+        <df name="x265-static.dir">
+        </df>
+        <in>feature_tests.c</in>
+        <in>feature_tests.cxx</in>
+      </df>
+      <df name="common">
+        <df name="CMakeFiles">
+          <df name="common.dir">
+            <df name="vec">
+            </df>
+            <df name="x86">
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="encoder">
+        <df name="CMakeFiles">
+          <df name="encoder.dir">
+            <df name="__">
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="out">
+      </df>
+      <in>x265_config.h</in>
+    </df>
+    <df root="../source" name="1">
+      <df name="cmake">
+      </df>
+      <df name="common">
+        <df name="arm">
+          <in>asm-primitives.cpp</in>
+          <in>asm.S</in>
+          <in>blockcopy8.S</in>
+          <in>blockcopy8.h</in>
+          <in>cpu-a.S</in>
+          <in>dct-a.S</in>
+          <in>dct8.h</in>
+          <in>intrapred.h</in>
+          <in>ipfilter8.S</in>
+          <in>ipfilter8.h</in>
+          <in>loopfilter.h</in>
+          <in>mc-a.S</in>
+          <in>mc.h</in>
+          <in>pixel-util.S</in>
+          <in>pixel-util.h</in>
+          <in>pixel.h</in>
+          <in>sad-a.S</in>
+          <in>ssd-a.S</in>
+        </df>
+        <df name="ppc">
+          <in>dct_altivec.cpp</in>
+          <in>intrapred_altivec.cpp</in>
+          <in>ipfilter_altivec.cpp</in>
+          <in>pixel_altivec.cpp</in>
+          <in>ppccommon.h</in>
+        </df>
+        <df name="vec">
+          <in>dct-sse3.cpp</in>
+          <in>dct-sse41.cpp</in>
+          <in>dct-ssse3.cpp</in>
+          <in>vec-primitives.cpp</in>
+        </df>
+        <df name="x86">
+          <in>asm-primitives.cpp</in>
+          <in>blockcopy8.asm</in>
+          <in>blockcopy8.h</in>
+          <in>const-a.asm</in>
+          <in>cpu-a.asm</in>
+          <in>dct8.asm</in>
+          <in>dct8.h</in>
+          <in>intrapred.h</in>
+          <in>intrapred16.asm</in>
+          <in>intrapred8.asm</in>
+          <in>intrapred8_allangs.asm</in>
+          <in>ipfilter16.asm</in>
+          <in>ipfilter8.asm</in>
+          <in>ipfilter8.h</in>
+          <in>loopfilter.asm</in>
+          <in>loopfilter.h</in>
+          <in>mc-a.asm</in>
+          <in>mc-a2.asm</in>
+          <in>mc.h</in>
+          <in>pixel-32.asm</in>
+          <in>pixel-a.asm</in>
+          <in>pixel-util.h</in>
+          <in>pixel-util8.asm</in>
+          <in>pixel.h</in>
+          <in>pixeladd8.asm</in>
+          <in>sad-a.asm</in>
+          <in>sad16-a.asm</in>
+          <in>seaintegral.asm</in>
+          <in>seaintegral.h</in>
+          <in>ssd-a.asm</in>
+          <in>x86inc.asm</in>
+          <in>x86util.asm</in>
+        </df>
+        <in>bitstream.cpp</in>
+        <in>bitstream.h</in>
+        <in>common.cpp</in>
+        <in>common.h</in>
+        <in>constants.cpp</in>
+        <in>constants.h</in>
+        <in>contexts.h</in>
+        <in>cpu.cpp</in>
+        <in>cpu.h</in>
+        <in>cudata.cpp</in>
+        <in>cudata.h</in>
+        <in>dct.cpp</in>
+        <in>deblock.cpp</in>
+        <in>deblock.h</in>
+        <in>frame.cpp</in>
+        <in>frame.h</in>
+        <in>framedata.cpp</in>
+        <in>framedata.h</in>
+        <in>intrapred.cpp</in>
+        <in>ipfilter.cpp</in>
+        <in>loopfilter.cpp</in>
+        <in>lowres.cpp</in>
+        <in>lowres.h</in>
+        <in>md5.cpp</in>
+        <in>md5.h</in>
+        <in>mv.h</in>
+        <in>param.cpp</in>
+        <in>param.h</in>
+        <in>piclist.cpp</in>
+        <in>piclist.h</in>
+        <in>picyuv.cpp</in>
+        <in>picyuv.h</in>
+        <in>pixel.cpp</in>
+        <in>predict.cpp</in>
+        <in>predict.h</in>
+        <in>primitives.cpp</in>
+        <in>primitives.h</in>
+        <in>quant.cpp</in>
+        <in>quant.h</in>
+        <in>scalinglist.cpp</in>
+        <in>scalinglist.h</in>
+        <in>shortyuv.cpp</in>
+        <in>shortyuv.h</in>
+        <in>slice.cpp</in>
+        <in>slice.h</in>
+        <in>threading.cpp</in>
+        <in>threading.h</in>
+        <in>threadpool.cpp</in>
+        <in>threadpool.h</in>
+        <in>version.cpp</in>
+        <in>wavefront.cpp</in>
+        <in>wavefront.h</in>
+        <in>winxp.cpp</in>
+        <in>winxp.h</in>
+        <in>yuv.cpp</in>
+        <in>yuv.h</in>
+      </df>
+      <df name="compat">
+        <df name="getopt">
+          <in>getopt.c</in>
+          <in>getopt.h</in>
+        </df>
+        <df name="msvc">
+          <in>stdint.h</in>
+        </df>
+      </df>
+      <df name="dynamicHDR10">
+        <df name="json11">
+          <in>json11.cpp</in>
+          <in>json11.h</in>
+        </df>
+        <in>BasicStructures.h</in>
+        <in>JsonHelper.cpp</in>
+        <in>JsonHelper.h</in>
+        <in>SeiMetadataDictionary.cpp</in>
+        <in>SeiMetadataDictionary.h</in>
+        <in>api.cpp</in>
+        <in>hdr10plus.h</in>
+        <in>metadataFromJson.cpp</in>
+        <in>metadataFromJson.h</in>
+      </df>
+      <df name="encoder">
+        <in>analysis.cpp</in>
+        <in>analysis.h</in>
+        <in>api.cpp</in>
+        <in>approx.h</in>
+        <in>bitcost.cpp</in>
+        <in>bitcost.h</in>
+        <in>dpb.cpp</in>
+        <in>dpb.h</in>
+        <in>encoder.cpp</in>
+        <in>encoder.h</in>
+        <in>entropy.cpp</in>
+        <in>entropy.h</in>
+        <in>frameencoder.cpp</in>
+        <in>frameencoder.h</in>
+        <in>frameencoder_naoo_simula.cpp</in>
+        <in>frameencodernaosimula.h</in>
+        <in>framefilter.cpp</in>
+        <in>framefilter.h</in>
+        <in>level.cpp</in>
+        <in>level.h</in>
+        <in>motion.cpp</in>
+        <in>motion.h</in>
+        <in>nal.cpp</in>
+        <in>nal.h</in>
+        <in>ratecontrol.cpp</in>
+        <in>ratecontrol.h</in>
+        <in>rdcost.h</in>
+        <in>reference.cpp</in>
+        <in>reference.h</in>
+        <in>sao.cpp</in>
+        <in>sao.h</in>
+        <in>search.cpp</in>
+        <in>search.h</in>
+        <in>sei.cpp</in>
+        <in>sei.h</in>
+        <in>slicetype.cpp</in>
+        <in>slicetype.h</in>
+        <in>weightPrediction.cpp</in>
+      </df>
+      <df name="input">
+        <in>input.cpp</in>
+        <in>input.h</in>
+        <in>y4m.cpp</in>
+        <in>y4m.h</in>
+        <in>yuv.cpp</in>
+        <in>yuv.h</in>
+      </df>
+      <df name="output">
+        <in>output.cpp</in>
+        <in>output.h</in>
+        <in>raw.cpp</in>
+        <in>raw.h</in>
+        <in>reconplay.cpp</in>
+        <in>reconplay.h</in>
+        <in>y4m.cpp</in>
+        <in>y4m.h</in>
+        <in>yuv.cpp</in>
+        <in>yuv.h</in>
+      </df>
+      <df name="profile">
+        <df name="PPA">
+          <in>ppa.cpp</in>
+          <in>ppa.h</in>
+          <in>ppaApi.h</in>
+        </df>
+        <df name="vtune">
+          <in>vtune.cpp</in>
+          <in>vtune.h</in>
+        </df>
+        <in>cpuEvents.h</in>
+      </df>
+      <df name="test">
+        <in>checkasm-a.asm</in>
+        <in>checkasm-arm.S</in>
+        <in>intrapredharness.cpp</in>
+        <in>intrapredharness.h</in>
+        <in>ipfilterharness.cpp</in>
+        <in>ipfilterharness.h</in>
+        <in>mbdstharness.cpp</in>
+        <in>mbdstharness.h</in>
+        <in>pixelharness.cpp</in>
+        <in>pixelharness.h</in>
+        <in>testbench.cpp</in>
+        <in>testharness.h</in>
+      </df>
+      <in>x265-extras.cpp</in>
+      <in>x265-extras.h</in>
+      <in>x265.cpp</in>
+      <in>x265.h</in>
+      <in>x265cli.h</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>../build/linux/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+            <option name="gdb_source_dirs" value="../source"/>
+            <option name="debug_command"
+                    value="/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/x265 --input-res 1920x1024 --wber-trans 1E-4 --rber-trans 0  --no-asm --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --bframes  0 --b-adapt  0 --keyint -1 --tune psnr --psnr --frames 4 --fps 50 --qp 32  --log-level 4 --csv-log-level 2  --psnr --csv x265_BlowingBubbles_2560x1600_FPS-30_Fr-200_QP-32_dbg.csv --input /home/italo/Documentos/HM-16.5/origCfP/cropped/Cactus_1920x1024_50.yuv -o dbg.bin "/>
+            <option name="debug_dir"
+                    value="/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux"/>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>sudo ./../pin -t ../source/tools/ManualExamples/obj-intel64/memapprox.so -- ./build/linux/x265 --input-res 384x192 --wber-trans 1E-4 --rber-trans 0  --no-asm --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --bframes  0 --b-adapt  0 --keyint -1 --tune psnr --psnr --frames 4 --fps 50 --qp 32  --log-level 4 --csv-log-level 2  --psnr --csv x265_BlowingBubbles_2560x1600_FPS-30_Fr-200_QP-32_TesteWER2_picYUV.csv --input /home/italo/Documentos/HM-16.5/origCfP/cropped/BlowingBubbles_384x192_50.yuv -o str.bin </runcommandpicklistitem>
+          <runcommandpicklistitem> sudo ../../pin -t ./../../source/tools/ManualExamples/obj-intel64/memapprox.so -- ./../build/linux/x265 --input-res 384x192 --wber-trans 1E-4 --rber-trans 0  --no-asm --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --bframes  0 --b-adapt  0 --keyint -1 --tune psnr --psnr --frames 4 --fps 50 --qp 32  --log-level 4 --csv-log-level 2  --psnr --csv x265_BlowingBubbles_2560x1600_FPS-30_Fr-200_QP-32_TesteWER2_picYUV.csv --input /home/italo/Documentos/HM-16.5/origCfP/cropped/BlowingBubbles_384x192_50.yuv -o str.bin </runcommandpicklistitem>
+          <runcommandpicklistitem>sudo ./../../pin -t ./../../source/tools/ManualExamples/obj-intel64/memapprox.so -- ./../build/linux/x265 --input-res 384x192 --wber-trans 1E-4 --rber-trans 0  --no-asm --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --bframes  0 --b-adapt  0 --keyint -1 --tune psnr --psnr --frames 4 --fps 50 --qp 32  --log-level 4 --csv-log-level 2  --psnr --csv x265_BlowingBubbles_2560x1600_FPS-30_Fr-200_QP-32_TesteWER2_picYUV.csv --input /home/italo/Documentos/HM-16.5/origCfP/cropped/BlowingBubbles_384x192_50.yuv -o str.bin</runcommandpicklistitem>
+          <runcommandpicklistitem>ls</runcommandpicklistitem>
+          <runcommandpicklistitem>pwd</runcommandpicklistitem>
+          <runcommandpicklistitem>sudo /home/italo/Documentos/pin-memapprox/pin -t /home/italo/Documentos/pin-memapprox/source/tools/ManualExamples/obj-intel64/memapprox.so -- /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/x265 --input-res 384x192 --wber-trans 1E-4 --rber-trans 0  --no-asm --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --bframes  0 --b-adapt  0 --keyint -1 --tune psnr --psnr --frames 4 --fps 50 --qp 32  --log-level 4 --csv-log-level 2  --psnr --csv x265_BlowingBubbles_2560x1600_FPS-30_Fr-200_QP-32_TesteWER2_picYUV.csv --input /home/italo/Documentos/HM-16.5/origCfP/cropped/BlowingBubbles_384x192_50.yuv -o str.bin</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>sudo /home/italo/Documentos/pin-memapprox/pin -t /home/italo/Documentos/pin-memapprox/source/tools/ManualExamples/obj-intel64/memapprox.so -- /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/x265 --input-res 384x192 --wber-trans 1E-4 --rber-trans 0  --no-asm --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --bframes  0 --b-adapt  0 --keyint -1 --tune psnr --psnr --frames 4 --fps 50 --qp 32  --log-level 4 --csv-log-level 2  --psnr --csv x265_BlowingBubbles_2560x1600_FPS-30_Fr-200_QP-32_TesteWER2_picYUV.csv --input /home/italo/Documentos/HM-16.5/origCfP/cropped/BlowingBubbles_384x192_50.yuv -o str.bin</runcommand>
+        <rundir>../build/linux</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

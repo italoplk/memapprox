@@ -1,0 +1,7 @@
+/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/clean-generated.dir
+/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/cli.dir
+/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common/CMakeFiles/common.dir
+/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/encoder/CMakeFiles/encoder.dir
+/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/uninstall.dir
+/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/x265-shared.dir
+/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/x265-static.dir
