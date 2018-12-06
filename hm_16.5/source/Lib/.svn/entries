@@ -1,0 +1,46 @@
+10
+
+dir
+4448
+https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware/tags/HM-16.5/source/Lib
+https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware
+
+
+
+2015-04-21T16:58:18.796915Z
+4440
+suehring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ce97f6c2-8f86-0410-b44d-af84b13ec34f
+
+TLibVideoIO
+dir
+
+TLibEncoder
+dir
+
+libmd5
+dir
+
+TAppCommon
+dir
+
+TLibDecoder
+dir
+
+TLibCommon
+dir
+

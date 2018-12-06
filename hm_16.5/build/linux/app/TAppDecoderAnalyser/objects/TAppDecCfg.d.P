@@ -1,0 +1,23 @@
+objects/TAppDecCfg.d.o: \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/App/TAppDecoder/TAppDecCfg.cpp \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/App/TAppDecoder/TAppDecCfg.h \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TAppCommon/program_options_lite.h \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/TComChromaFormat.h \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/TComRectangle.h \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/ContextTables.h \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/TComRom.h \
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/Debug.h
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/App/TAppDecoder/TAppDecCfg.cpp :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/App/TAppDecoder/TAppDecCfg.h :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TAppCommon/program_options_lite.h :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/TComChromaFormat.h :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/TComRectangle.h :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/ContextTables.h :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/TComRom.h :
+ /home/italo/Documentos/pin-memapprox/hm_16.5/build/linux/app/TAppDecoderAnalyser/../../../../source/Lib/TLibCommon/Debug.h :
