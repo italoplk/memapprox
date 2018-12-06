@@ -31,10 +31,11 @@
 
 
 //@IDM
+/*
 #include "approx.h"
 extern float  rber_intra;
 extern float  wber_intra;
-
+*/
 using namespace X265_NS;
 
 #if _MSC_VER
@@ -65,13 +66,15 @@ Predict::Predict()
 {
     //@IDM
 
-    start_approx_add = (unsigned long long)(&intraNeighbourBuf);
+   /* start_approx_add = (unsigned long long)(&intraNeighbourBuf);
     end_approx_add = (unsigned long long)(&intraNeighbourBuf+1);
 
     add_approx((start_approx_add), (end_approx_add));		 
 
-    set_read_ber((double)        rber_intra);
-    set_write_ber((double)wber_intra);
+    set_read_ber((double) rber_intra);
+    set_write_ber((double)wber_intra);*/
+    
+  //  printf("\n r= %G, w= %g", rber_intra, wber_intra);
 }
 
 Predict::~Predict()
@@ -80,7 +83,7 @@ Predict::~Predict()
     m_predShortYuv[1].destroy();
     //@IDM
  
-    remove_approx((start_approx_add), (end_approx_add));
+    //remove_approx((start_approx_add), (end_approx_add));
 }
 
 bool Predict::allocBuffers(int csp)

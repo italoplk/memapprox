@@ -1,4 +1,4 @@
-# Install script for directory: /home/italo/Documentos/pin-memapprox/x265_2.5/source
+# Install script for directory: /home/italo/Documentos/memapprox/x265_2.5/source
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,35 +33,35 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/libx265.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/italo/Documentos/memapprox/x265_2.5/build/linux/libx265.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/italo/Documentos/pin-memapprox/x265_2.5/source/x265.h"
-    "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/x265_config.h"
+    "/home/italo/Documentos/memapprox/x265_2.5/source/x265.h"
+    "/home/italo/Documentos/memapprox/x265_2.5/build/linux/x265_config.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeRelink.dir/libx265.so.130"
-    "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeRelink.dir/libx265.so"
+    "/home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles/CMakeRelink.dir/libx265.so.130"
+    "/home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles/CMakeRelink.dir/libx265.so"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/x265.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/italo/Documentos/memapprox/x265_2.5/build/linux/x265.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeRelink.dir/x265")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles/CMakeRelink.dir/x265")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/encoder/cmake_install.cmake")
-  INCLUDE("/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common/cmake_install.cmake")
+  INCLUDE("/home/italo/Documentos/memapprox/x265_2.5/build/linux/encoder/cmake_install.cmake")
+  INCLUDE("/home/italo/Documentos/memapprox/x265_2.5/build/linux/common/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -71,7 +71,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/italo/Documentos/memapprox/x265_2.5/build/linux/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/italo/Documentos/memapprox/x265_2.5/build/linux/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

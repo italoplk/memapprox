@@ -1,4 +1,4 @@
-# Install script for directory: /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder
+# Install script for directory: /home/italo/Documentos/memapprox/x265_2.5/source/encoder
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -36,7 +36,11 @@
 
 
 //@IDM
-//#include "approx.h"
+#include "approx.h"
+extern float  rber_intra;
+extern float  wber_intra;
+
+
 
 using namespace X265_NS;
 
@@ -73,9 +77,27 @@ Search::Search()
     m_frame = NULL;
     m_maxTUDepth = -1;
    
-//    @IDM
 
 
+   //@IDM 
+   
+ #ifdef heap_array_bp
+    #ifdef APPROX_on
+    
+       // unsigned long long start_approx_add, end_approx_add; -> defined in the .h
+       
+        start_approx_add = (unsigned long long)(&intraNeighbourBuf);
+        end_approx_add = (unsigned long long)(&intraNeighbourBuf+1);
+    
+        add_approx((unsigned long long)(start_approx_add), (unsigned long long)(end_approx_add));		 
+
+
+        set_write_ber((double)wber_intra);
+        set_read_ber((double)rber_intra);
+
+    
+    #endif
+#endif
 
 
 }
@@ -87,11 +109,13 @@ Search::~Search()
 #ifdef heap_array_bp
     #ifdef APPROX_on
 
-  // remove_approx((start_approx_add), (end_approx_add));
+   remove_approx((start_approx_add), (end_approx_add));
 
     
     #endif
 #endif
+
+
     for (uint32_t i = 0; i <= m_numLayers; i++)
     {
         X265_FREE(m_rqt[i].coeffRQT[0]);
@@ -127,9 +151,16 @@ bool Search::initSearch(const x265_param& param, ScalingList& scalingList)
     m_numLayers = g_log2Size[param.maxCUSize] - 2;
 
     
- //@IDM
-     
-   
+      // unsigned long long start_approx_add, end_approx_add;
+       /* start_approx_add = (unsigned long long)(&intraNeighbourBuf);
+        end_approx_add = (unsigned long long)(&intraNeighbourBuf+1);
+    
+        add_approx((unsigned long long)(start_approx_add), (unsigned long long)(end_approx_add));		 
+
+
+        set_write_ber((double)wber_intra);
+        set_read_ber((double)rber_intra);
+   */
     
     
     m_rdCost.setPsyRdScale(param.psyRd);
@@ -226,11 +257,11 @@ bool Search::initSearch(const x265_param& param, ScalingList& scalingList)
     CHECKED_MALLOC(m_tsResidual, int16_t, MAX_TS_SIZE * MAX_TS_SIZE);
     CHECKED_MALLOC(m_tsRecon,    pixel,   MAX_TS_SIZE * MAX_TS_SIZE);
 
-//    remove_approx((start_approx_add[0]), (end_approx_add[0]));
+//    remove_approx((start_approx_add), (end_approx_add));
     return ok;
 
 fail:
-//        remove_approx((start_approx_add[0]), (end_approx_add[0]));
+//        remove_approx((start_approx_add), (end_approx_add));
     return false;
 }
 
@@ -377,12 +408,11 @@ void Search::codeIntraLumaQT(Mode& mode, const CUGeom& cuGeom, uint32_t tuDepth,
         
           //@IDM
  
-//        unsigned long long start_approx_add[258], end_approx_add[258];
-//        start_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]);
-//        end_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]+257);
+
+//        start_approx_add = (unsigned long long)(&intraNeighbourBuf);
+//        end_approx_add = (unsigned long long)(&intraNeighbourBuf+1);
 //    
-//        add_approx((unsigned long long)(start_approx_add[0]), (unsigned long long)(end_approx_add[0]));		 
-//        printf("1\n");
+//        add_approx((unsigned long long)(start_approx_add), (unsigned long long)(end_approx_add));		 
 //        set_read_ber((double)0.0);
 //        set_write_ber((double)0.1);
         
@@ -397,11 +427,13 @@ void Search::codeIntraLumaQT(Mode& mode, const CUGeom& cuGeom, uint32_t tuDepth,
        // #ifdef heap_array_bp
 			 // #ifdef APPROX_on
 			//remove
-				//remove_approx((unsigned long long)(intraNeighbors[0][0]), (unsigned long long)(intraNeighbors [1][257]));
-                                //printf ("\nremove_approx %llu %llu", (unsigned long long) start_approx_add[l][ref], (unsigned long long)end_approx_add[l][ref]);
+				//remove_approx((unsigned long long)(&intraNeighbors), (unsigned long long)(&intraNeighbors+1));
+                              
                                 
 			  //#endif
 			//#endif 	
+			
+			
         cu.setTransformSkipSubParts(0, TEXT_LUMA, absPartIdx, fullDepth);
         cu.setTUDepthSubParts(tuDepth, absPartIdx, fullDepth);
 
@@ -1569,15 +1601,18 @@ sse_t Search::estIntraPredQT(Mode &intraMode, const CUGeom& cuGeom, const uint32
         IntraNeighbors intraNeighbors;
     initIntraNeighbors(cu, absPartIdx, initTuDepth, true, &intraNeighbors);
 //    @IDM
-//    unsigned long long start_approx_add[258], end_approx_add[258];
-//    start_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]);
-//    end_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]+257);
+//    unsigned long long start_approx_add, end_approx_add;
+//    start_approx_add = (unsigned long long)(&intraNeighbourBuf);
+//    end_approx_add = (unsigned long long)(&intraNeighbourBuf+1);
 //
-//    add_approx((start_approx_add[0]), (end_approx_add[0]));		 
-////        printf("4 ultimo colocado\n");
+//    add_approx((start_approx_add), (end_approx_add));		 
 //
 //    set_read_ber((double)0.0);
 //    set_write_ber((double)0.1);
+
+
+
+
     // loop over partitions
     for (uint32_t puIdx = 0; puIdx < numPU; puIdx++, absPartIdx += qNumParts)
     {
@@ -1745,7 +1780,7 @@ sse_t Search::estIntraPredQT(Mode &intraMode, const CUGeom& cuGeom, const uint32
     m_entropyCoder.load(m_rqt[depth].cur);
     
     //@IDM
-//    remove_approx((start_approx_add[0]), (end_approx_add[0]));
+//    remove_approx((start_approx_add), (end_approx_add));
     
     return totalDistortion;
 }

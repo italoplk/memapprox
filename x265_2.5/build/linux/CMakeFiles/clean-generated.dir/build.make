@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/italo/Documentos/pin-memapprox/x265_2.5/source
+CMAKE_SOURCE_DIR = /home/italo/Documentos/memapprox/x265_2.5/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux
+CMAKE_BINARY_DIR = /home/italo/Documentos/memapprox/x265_2.5/build/linux
 
 # Utility rule file for clean-generated.
 
@@ -49,7 +49,7 @@ CMAKE_BINARY_DIR = /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux
 include CMakeFiles/clean-generated.dir/progress.make
 
 CMakeFiles/clean-generated:
-	/usr/bin/cmake -P /home/italo/Documentos/pin-memapprox/x265_2.5/source/cmake/clean-generated.cmake
+	/usr/bin/cmake -P /home/italo/Documentos/memapprox/x265_2.5/source/cmake/clean-generated.cmake
 
 clean-generated: CMakeFiles/clean-generated
 clean-generated: CMakeFiles/clean-generated.dir/build.make
@@ -64,6 +64,6 @@ CMakeFiles/clean-generated.dir/clean:
 .PHONY : CMakeFiles/clean-generated.dir/clean
 
 CMakeFiles/clean-generated.dir/depend:
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/italo/Documentos/pin-memapprox/x265_2.5/source /home/italo/Documentos/pin-memapprox/x265_2.5/source /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/clean-generated.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/italo/Documentos/memapprox/x265_2.5/source /home/italo/Documentos/memapprox/x265_2.5/source /home/italo/Documentos/memapprox/x265_2.5/build/linux /home/italo/Documentos/memapprox/x265_2.5/build/linux /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles/clean-generated.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean-generated.dir/depend
 

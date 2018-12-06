@@ -252,7 +252,9 @@ class Search : public Predict
 {
 public:
    
-  
+    //@IDM
+    unsigned long long start_approx_add, end_approx_add;    
+   //unsigned long long start_approx_add_filtro, end_approx_add_filtro;  //->created for the second row of the matrix which is a filter.  
 
     
     

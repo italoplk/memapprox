@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: '/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/install_manifest.txt'")
+if(NOT EXISTS "/home/italo/Documentos/memapprox/x265_2.5/build/linux/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: '/home/italo/Documentos/memapprox/x265_2.5/build/linux/install_manifest.txt'")
 endif()
 
-file(READ "/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/install_manifest.txt" files)
+file(READ "/home/italo/Documentos/memapprox/x265_2.5/build/linux/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
     message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

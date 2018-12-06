@@ -12,17 +12,18 @@ FILE* debug;
 
 unsigned long long __attribute__((optimize("O0"))) add_approx(unsigned long long start_address, unsigned long long end_address) 
 {
+        printf("\n%s %llu %llu\n", "add_approx", start_address, end_address); //@IDM
 	//debug = fopen("/tmp/memapproxlog", "w");
 	//fprintf(debug, "%s %llu %llu\n", "add_approx", start_address, end_address);
 	//fclose(debug);
-        //printf("\n%s %llu %llu\n", "add_approx", start_address, end_address); //@IDM
+
 	return end_address - start_address;
 }
 
 unsigned long long __attribute__((optimize("O0"))) remove_approx(unsigned long long start_address, unsigned long long end_address) 
 {
+        printf ( "\n%s %llu %llu\n", "remove_approx", start_address, end_address); //@IDM
 	//debug = fopen("/tmp/memapproxlog", "w");
-       // printf ( "\n%s %llu %llu\n", "remove_approx", start_address, end_address); //@IDM
 	//fprintf(debug, "%s %llu %llu\n", "remove_approx", start_address, end_address);
 	//fclose(debug);
 	return end_address - start_address;

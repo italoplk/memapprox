@@ -20,7 +20,7 @@ QPs = ["22","27","32","37"]
 #QPs = ["22"]
 
 HOME = os.environ["HOME"]
-PIN_BASE = HOME + '/intra-pin-memapprox'
+PIN_BASE = os.getcwd() + "/.."
 videos = [["Cactus_1920x1080_50", "1080p", "50","1920x1080"]]
 #videos = [ ["Cactus_1920x1080_50", "1080p", "50","1920x1080"], ["BasketballDrive_1920x1080_50", "1080p", "50","1920x1080"], ["Cactus_3840x2160_60fps", "4k", "60","3840x2160"], ["Coastguard_3840x2160_60fps", "4k", "60", "3840x2160"]]
 #videos = [["Cactus_1920x1080_50", "1080p", "50","1920x1080"], ["BasketballDrive_1920x1080_50", "1080p", "50","1920x1080"],["Cactus_3840x2160_60fps", "4k", "60","3840x2160"], ["Coastguard_3840x2160_60fps", "4k", "60", "3840x2160"]]
@@ -47,7 +47,7 @@ cmd = '''taskset -c {10} {0}/pin \
 --keyint -1 \
 -f 80 \
 --qp {9} \
---input ./{5}.yuv \
+--input ../../{5}.yuv \
 --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --pool "-" \
 -o {0:}/x265_2.5/outputs/{5}/videos/{5}_qp{9}_{6}_{7:}.265 \
 --wber-intra {6:} \

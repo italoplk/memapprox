@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/italo/Documentos/pin-memapprox/x265_2.5/source
+CMAKE_SOURCE_DIR = /home/italo/Documentos/memapprox/x265_2.5/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux
+CMAKE_BINARY_DIR = /home/italo/Documentos/memapprox/x265_2.5/build/linux
 
 # Include any dependencies generated for this target.
 include common/CMakeFiles/common.dir/depend.make
@@ -53,18 +53,18 @@ include common/CMakeFiles/common.dir/progress.make
 include common/CMakeFiles/common.dir/flags.make
 
 common/CMakeFiles/common.dir/primitives.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/primitives.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/primitives.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_1)
+common/CMakeFiles/common.dir/primitives.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/primitives.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/primitives.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/primitives.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/primitives.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/primitives.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/primitives.cpp
 
 common/CMakeFiles/common.dir/primitives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/primitives.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/primitives.cpp > CMakeFiles/common.dir/primitives.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/primitives.cpp > CMakeFiles/common.dir/primitives.cpp.i
 
 common/CMakeFiles/common.dir/primitives.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/primitives.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/primitives.cpp -o CMakeFiles/common.dir/primitives.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/primitives.cpp -o CMakeFiles/common.dir/primitives.cpp.s
 
 common/CMakeFiles/common.dir/primitives.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/primitives.cpp.o.requires
@@ -76,18 +76,18 @@ common/CMakeFiles/common.dir/primitives.cpp.o.provides: common/CMakeFiles/common
 common/CMakeFiles/common.dir/primitives.cpp.o.provides.build: common/CMakeFiles/common.dir/primitives.cpp.o
 
 common/CMakeFiles/common.dir/pixel.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/pixel.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/pixel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_2)
+common/CMakeFiles/common.dir/pixel.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/pixel.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/pixel.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/pixel.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/pixel.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/pixel.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/pixel.cpp
 
 common/CMakeFiles/common.dir/pixel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/pixel.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/pixel.cpp > CMakeFiles/common.dir/pixel.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/pixel.cpp > CMakeFiles/common.dir/pixel.cpp.i
 
 common/CMakeFiles/common.dir/pixel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/pixel.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/pixel.cpp -o CMakeFiles/common.dir/pixel.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/pixel.cpp -o CMakeFiles/common.dir/pixel.cpp.s
 
 common/CMakeFiles/common.dir/pixel.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/pixel.cpp.o.requires
@@ -99,18 +99,18 @@ common/CMakeFiles/common.dir/pixel.cpp.o.provides: common/CMakeFiles/common.dir/
 common/CMakeFiles/common.dir/pixel.cpp.o.provides.build: common/CMakeFiles/common.dir/pixel.cpp.o
 
 common/CMakeFiles/common.dir/dct.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/dct.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/dct.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_3)
+common/CMakeFiles/common.dir/dct.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/dct.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/dct.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/dct.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/dct.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/dct.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/dct.cpp
 
 common/CMakeFiles/common.dir/dct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/dct.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/dct.cpp > CMakeFiles/common.dir/dct.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/dct.cpp > CMakeFiles/common.dir/dct.cpp.i
 
 common/CMakeFiles/common.dir/dct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/dct.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/dct.cpp -o CMakeFiles/common.dir/dct.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/dct.cpp -o CMakeFiles/common.dir/dct.cpp.s
 
 common/CMakeFiles/common.dir/dct.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/dct.cpp.o.requires
@@ -122,18 +122,18 @@ common/CMakeFiles/common.dir/dct.cpp.o.provides: common/CMakeFiles/common.dir/dc
 common/CMakeFiles/common.dir/dct.cpp.o.provides.build: common/CMakeFiles/common.dir/dct.cpp.o
 
 common/CMakeFiles/common.dir/ipfilter.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/ipfilter.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/ipfilter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_4)
+common/CMakeFiles/common.dir/ipfilter.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/ipfilter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/ipfilter.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/ipfilter.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/ipfilter.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/ipfilter.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/ipfilter.cpp
 
 common/CMakeFiles/common.dir/ipfilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/ipfilter.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/ipfilter.cpp > CMakeFiles/common.dir/ipfilter.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/ipfilter.cpp > CMakeFiles/common.dir/ipfilter.cpp.i
 
 common/CMakeFiles/common.dir/ipfilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/ipfilter.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/ipfilter.cpp -o CMakeFiles/common.dir/ipfilter.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/ipfilter.cpp -o CMakeFiles/common.dir/ipfilter.cpp.s
 
 common/CMakeFiles/common.dir/ipfilter.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/ipfilter.cpp.o.requires
@@ -145,18 +145,18 @@ common/CMakeFiles/common.dir/ipfilter.cpp.o.provides: common/CMakeFiles/common.d
 common/CMakeFiles/common.dir/ipfilter.cpp.o.provides.build: common/CMakeFiles/common.dir/ipfilter.cpp.o
 
 common/CMakeFiles/common.dir/intrapred.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/intrapred.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/intrapred.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_5)
+common/CMakeFiles/common.dir/intrapred.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/intrapred.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/intrapred.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/intrapred.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/intrapred.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/intrapred.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/intrapred.cpp
 
 common/CMakeFiles/common.dir/intrapred.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/intrapred.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/intrapred.cpp > CMakeFiles/common.dir/intrapred.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/intrapred.cpp > CMakeFiles/common.dir/intrapred.cpp.i
 
 common/CMakeFiles/common.dir/intrapred.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/intrapred.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/intrapred.cpp -o CMakeFiles/common.dir/intrapred.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/intrapred.cpp -o CMakeFiles/common.dir/intrapred.cpp.s
 
 common/CMakeFiles/common.dir/intrapred.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/intrapred.cpp.o.requires
@@ -168,18 +168,18 @@ common/CMakeFiles/common.dir/intrapred.cpp.o.provides: common/CMakeFiles/common.
 common/CMakeFiles/common.dir/intrapred.cpp.o.provides.build: common/CMakeFiles/common.dir/intrapred.cpp.o
 
 common/CMakeFiles/common.dir/loopfilter.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/loopfilter.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/loopfilter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_6)
+common/CMakeFiles/common.dir/loopfilter.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/loopfilter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/loopfilter.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/loopfilter.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/loopfilter.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/loopfilter.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/loopfilter.cpp
 
 common/CMakeFiles/common.dir/loopfilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/loopfilter.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/loopfilter.cpp > CMakeFiles/common.dir/loopfilter.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/loopfilter.cpp > CMakeFiles/common.dir/loopfilter.cpp.i
 
 common/CMakeFiles/common.dir/loopfilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/loopfilter.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/loopfilter.cpp -o CMakeFiles/common.dir/loopfilter.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/loopfilter.cpp -o CMakeFiles/common.dir/loopfilter.cpp.s
 
 common/CMakeFiles/common.dir/loopfilter.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/loopfilter.cpp.o.requires
@@ -191,18 +191,18 @@ common/CMakeFiles/common.dir/loopfilter.cpp.o.provides: common/CMakeFiles/common
 common/CMakeFiles/common.dir/loopfilter.cpp.o.provides.build: common/CMakeFiles/common.dir/loopfilter.cpp.o
 
 common/CMakeFiles/common.dir/constants.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/constants.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/constants.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_7)
+common/CMakeFiles/common.dir/constants.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/constants.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/constants.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/constants.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/constants.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/constants.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/constants.cpp
 
 common/CMakeFiles/common.dir/constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/constants.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/constants.cpp > CMakeFiles/common.dir/constants.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/constants.cpp > CMakeFiles/common.dir/constants.cpp.i
 
 common/CMakeFiles/common.dir/constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/constants.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/constants.cpp -o CMakeFiles/common.dir/constants.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/constants.cpp -o CMakeFiles/common.dir/constants.cpp.s
 
 common/CMakeFiles/common.dir/constants.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/constants.cpp.o.requires
@@ -214,18 +214,18 @@ common/CMakeFiles/common.dir/constants.cpp.o.provides: common/CMakeFiles/common.
 common/CMakeFiles/common.dir/constants.cpp.o.provides.build: common/CMakeFiles/common.dir/constants.cpp.o
 
 common/CMakeFiles/common.dir/cpu.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/cpu.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/cpu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_8)
+common/CMakeFiles/common.dir/cpu.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/cpu.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/cpu.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -Wno-narrowing -o CMakeFiles/common.dir/cpu.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/cpu.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -Wno-narrowing -o CMakeFiles/common.dir/cpu.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/cpu.cpp
 
 common/CMakeFiles/common.dir/cpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/cpu.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -Wno-narrowing -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/cpu.cpp > CMakeFiles/common.dir/cpu.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -Wno-narrowing -E /home/italo/Documentos/memapprox/x265_2.5/source/common/cpu.cpp > CMakeFiles/common.dir/cpu.cpp.i
 
 common/CMakeFiles/common.dir/cpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/cpu.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -Wno-narrowing -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/cpu.cpp -o CMakeFiles/common.dir/cpu.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -Wno-narrowing -S /home/italo/Documentos/memapprox/x265_2.5/source/common/cpu.cpp -o CMakeFiles/common.dir/cpu.cpp.s
 
 common/CMakeFiles/common.dir/cpu.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/cpu.cpp.o.requires
@@ -237,18 +237,18 @@ common/CMakeFiles/common.dir/cpu.cpp.o.provides: common/CMakeFiles/common.dir/cp
 common/CMakeFiles/common.dir/cpu.cpp.o.provides.build: common/CMakeFiles/common.dir/cpu.cpp.o
 
 common/CMakeFiles/common.dir/version.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/version.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/version.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_9)
+common/CMakeFiles/common.dir/version.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/version.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/version.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DX265_VERSION=2.5 -o CMakeFiles/common.dir/version.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/version.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DX265_VERSION=2.5 -o CMakeFiles/common.dir/version.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/version.cpp
 
 common/CMakeFiles/common.dir/version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/version.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DX265_VERSION=2.5 -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/version.cpp > CMakeFiles/common.dir/version.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DX265_VERSION=2.5 -E /home/italo/Documentos/memapprox/x265_2.5/source/common/version.cpp > CMakeFiles/common.dir/version.cpp.i
 
 common/CMakeFiles/common.dir/version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/version.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DX265_VERSION=2.5 -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/version.cpp -o CMakeFiles/common.dir/version.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DX265_VERSION=2.5 -S /home/italo/Documentos/memapprox/x265_2.5/source/common/version.cpp -o CMakeFiles/common.dir/version.cpp.s
 
 common/CMakeFiles/common.dir/version.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/version.cpp.o.requires
@@ -260,18 +260,18 @@ common/CMakeFiles/common.dir/version.cpp.o.provides: common/CMakeFiles/common.di
 common/CMakeFiles/common.dir/version.cpp.o.provides.build: common/CMakeFiles/common.dir/version.cpp.o
 
 common/CMakeFiles/common.dir/threading.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/threading.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threading.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_10)
+common/CMakeFiles/common.dir/threading.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/threading.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/threading.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/threading.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threading.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/threading.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/threading.cpp
 
 common/CMakeFiles/common.dir/threading.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/threading.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threading.cpp > CMakeFiles/common.dir/threading.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/threading.cpp > CMakeFiles/common.dir/threading.cpp.i
 
 common/CMakeFiles/common.dir/threading.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/threading.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threading.cpp -o CMakeFiles/common.dir/threading.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/threading.cpp -o CMakeFiles/common.dir/threading.cpp.s
 
 common/CMakeFiles/common.dir/threading.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/threading.cpp.o.requires
@@ -283,18 +283,18 @@ common/CMakeFiles/common.dir/threading.cpp.o.provides: common/CMakeFiles/common.
 common/CMakeFiles/common.dir/threading.cpp.o.provides.build: common/CMakeFiles/common.dir/threading.cpp.o
 
 common/CMakeFiles/common.dir/threadpool.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/threadpool.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threadpool.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_11)
+common/CMakeFiles/common.dir/threadpool.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/threadpool.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/threadpool.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/threadpool.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threadpool.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/threadpool.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/threadpool.cpp
 
 common/CMakeFiles/common.dir/threadpool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/threadpool.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threadpool.cpp > CMakeFiles/common.dir/threadpool.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/threadpool.cpp > CMakeFiles/common.dir/threadpool.cpp.i
 
 common/CMakeFiles/common.dir/threadpool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/threadpool.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threadpool.cpp -o CMakeFiles/common.dir/threadpool.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/threadpool.cpp -o CMakeFiles/common.dir/threadpool.cpp.s
 
 common/CMakeFiles/common.dir/threadpool.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/threadpool.cpp.o.requires
@@ -306,18 +306,18 @@ common/CMakeFiles/common.dir/threadpool.cpp.o.provides: common/CMakeFiles/common
 common/CMakeFiles/common.dir/threadpool.cpp.o.provides.build: common/CMakeFiles/common.dir/threadpool.cpp.o
 
 common/CMakeFiles/common.dir/wavefront.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/wavefront.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/wavefront.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_12)
+common/CMakeFiles/common.dir/wavefront.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/wavefront.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/wavefront.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/wavefront.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/wavefront.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/wavefront.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/wavefront.cpp
 
 common/CMakeFiles/common.dir/wavefront.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/wavefront.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/wavefront.cpp > CMakeFiles/common.dir/wavefront.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/wavefront.cpp > CMakeFiles/common.dir/wavefront.cpp.i
 
 common/CMakeFiles/common.dir/wavefront.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/wavefront.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/wavefront.cpp -o CMakeFiles/common.dir/wavefront.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/wavefront.cpp -o CMakeFiles/common.dir/wavefront.cpp.s
 
 common/CMakeFiles/common.dir/wavefront.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/wavefront.cpp.o.requires
@@ -329,18 +329,18 @@ common/CMakeFiles/common.dir/wavefront.cpp.o.provides: common/CMakeFiles/common.
 common/CMakeFiles/common.dir/wavefront.cpp.o.provides.build: common/CMakeFiles/common.dir/wavefront.cpp.o
 
 common/CMakeFiles/common.dir/md5.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/md5.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/md5.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_13)
+common/CMakeFiles/common.dir/md5.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/md5.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/md5.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/md5.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/md5.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/md5.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/md5.cpp
 
 common/CMakeFiles/common.dir/md5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/md5.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/md5.cpp > CMakeFiles/common.dir/md5.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/md5.cpp > CMakeFiles/common.dir/md5.cpp.i
 
 common/CMakeFiles/common.dir/md5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/md5.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/md5.cpp -o CMakeFiles/common.dir/md5.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/md5.cpp -o CMakeFiles/common.dir/md5.cpp.s
 
 common/CMakeFiles/common.dir/md5.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/md5.cpp.o.requires
@@ -352,18 +352,18 @@ common/CMakeFiles/common.dir/md5.cpp.o.provides: common/CMakeFiles/common.dir/md
 common/CMakeFiles/common.dir/md5.cpp.o.provides.build: common/CMakeFiles/common.dir/md5.cpp.o
 
 common/CMakeFiles/common.dir/bitstream.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/bitstream.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/bitstream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_14)
+common/CMakeFiles/common.dir/bitstream.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/bitstream.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/bitstream.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/bitstream.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/bitstream.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/bitstream.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/bitstream.cpp
 
 common/CMakeFiles/common.dir/bitstream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/bitstream.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/bitstream.cpp > CMakeFiles/common.dir/bitstream.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/bitstream.cpp > CMakeFiles/common.dir/bitstream.cpp.i
 
 common/CMakeFiles/common.dir/bitstream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/bitstream.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/bitstream.cpp -o CMakeFiles/common.dir/bitstream.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/bitstream.cpp -o CMakeFiles/common.dir/bitstream.cpp.s
 
 common/CMakeFiles/common.dir/bitstream.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/bitstream.cpp.o.requires
@@ -375,18 +375,18 @@ common/CMakeFiles/common.dir/bitstream.cpp.o.provides: common/CMakeFiles/common.
 common/CMakeFiles/common.dir/bitstream.cpp.o.provides.build: common/CMakeFiles/common.dir/bitstream.cpp.o
 
 common/CMakeFiles/common.dir/yuv.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/yuv.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/yuv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_15)
+common/CMakeFiles/common.dir/yuv.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/yuv.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/yuv.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/yuv.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/yuv.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/yuv.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/yuv.cpp
 
 common/CMakeFiles/common.dir/yuv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/yuv.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/yuv.cpp > CMakeFiles/common.dir/yuv.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/yuv.cpp > CMakeFiles/common.dir/yuv.cpp.i
 
 common/CMakeFiles/common.dir/yuv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/yuv.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/yuv.cpp -o CMakeFiles/common.dir/yuv.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/yuv.cpp -o CMakeFiles/common.dir/yuv.cpp.s
 
 common/CMakeFiles/common.dir/yuv.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/yuv.cpp.o.requires
@@ -398,18 +398,18 @@ common/CMakeFiles/common.dir/yuv.cpp.o.provides: common/CMakeFiles/common.dir/yu
 common/CMakeFiles/common.dir/yuv.cpp.o.provides.build: common/CMakeFiles/common.dir/yuv.cpp.o
 
 common/CMakeFiles/common.dir/shortyuv.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/shortyuv.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/shortyuv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_16)
+common/CMakeFiles/common.dir/shortyuv.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/shortyuv.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/shortyuv.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/shortyuv.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/shortyuv.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/shortyuv.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/shortyuv.cpp
 
 common/CMakeFiles/common.dir/shortyuv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/shortyuv.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/shortyuv.cpp > CMakeFiles/common.dir/shortyuv.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/shortyuv.cpp > CMakeFiles/common.dir/shortyuv.cpp.i
 
 common/CMakeFiles/common.dir/shortyuv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/shortyuv.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/shortyuv.cpp -o CMakeFiles/common.dir/shortyuv.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/shortyuv.cpp -o CMakeFiles/common.dir/shortyuv.cpp.s
 
 common/CMakeFiles/common.dir/shortyuv.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/shortyuv.cpp.o.requires
@@ -421,18 +421,18 @@ common/CMakeFiles/common.dir/shortyuv.cpp.o.provides: common/CMakeFiles/common.d
 common/CMakeFiles/common.dir/shortyuv.cpp.o.provides.build: common/CMakeFiles/common.dir/shortyuv.cpp.o
 
 common/CMakeFiles/common.dir/picyuv.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/picyuv.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/picyuv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_17)
+common/CMakeFiles/common.dir/picyuv.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/picyuv.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/picyuv.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/picyuv.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/picyuv.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/picyuv.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/picyuv.cpp
 
 common/CMakeFiles/common.dir/picyuv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/picyuv.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/picyuv.cpp > CMakeFiles/common.dir/picyuv.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/picyuv.cpp > CMakeFiles/common.dir/picyuv.cpp.i
 
 common/CMakeFiles/common.dir/picyuv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/picyuv.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/picyuv.cpp -o CMakeFiles/common.dir/picyuv.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/picyuv.cpp -o CMakeFiles/common.dir/picyuv.cpp.s
 
 common/CMakeFiles/common.dir/picyuv.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/picyuv.cpp.o.requires
@@ -444,18 +444,18 @@ common/CMakeFiles/common.dir/picyuv.cpp.o.provides: common/CMakeFiles/common.dir
 common/CMakeFiles/common.dir/picyuv.cpp.o.provides.build: common/CMakeFiles/common.dir/picyuv.cpp.o
 
 common/CMakeFiles/common.dir/common.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/common.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/common.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_18)
+common/CMakeFiles/common.dir/common.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/common.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/common.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/common.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/common.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/common.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/common.cpp
 
 common/CMakeFiles/common.dir/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/common.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/common.cpp > CMakeFiles/common.dir/common.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/common.cpp > CMakeFiles/common.dir/common.cpp.i
 
 common/CMakeFiles/common.dir/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/common.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/common.cpp -o CMakeFiles/common.dir/common.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/common.cpp -o CMakeFiles/common.dir/common.cpp.s
 
 common/CMakeFiles/common.dir/common.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/common.cpp.o.requires
@@ -467,18 +467,18 @@ common/CMakeFiles/common.dir/common.cpp.o.provides: common/CMakeFiles/common.dir
 common/CMakeFiles/common.dir/common.cpp.o.provides.build: common/CMakeFiles/common.dir/common.cpp.o
 
 common/CMakeFiles/common.dir/param.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/param.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/param.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_19)
+common/CMakeFiles/common.dir/param.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/param.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/param.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DHAVE_STRTOK_R=1 -o CMakeFiles/common.dir/param.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/param.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DHAVE_STRTOK_R=1 -o CMakeFiles/common.dir/param.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/param.cpp
 
 common/CMakeFiles/common.dir/param.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/param.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DHAVE_STRTOK_R=1 -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/param.cpp > CMakeFiles/common.dir/param.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DHAVE_STRTOK_R=1 -E /home/italo/Documentos/memapprox/x265_2.5/source/common/param.cpp > CMakeFiles/common.dir/param.cpp.i
 
 common/CMakeFiles/common.dir/param.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/param.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DHAVE_STRTOK_R=1 -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/param.cpp -o CMakeFiles/common.dir/param.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DHAVE_STRTOK_R=1 -S /home/italo/Documentos/memapprox/x265_2.5/source/common/param.cpp -o CMakeFiles/common.dir/param.cpp.s
 
 common/CMakeFiles/common.dir/param.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/param.cpp.o.requires
@@ -490,18 +490,18 @@ common/CMakeFiles/common.dir/param.cpp.o.provides: common/CMakeFiles/common.dir/
 common/CMakeFiles/common.dir/param.cpp.o.provides.build: common/CMakeFiles/common.dir/param.cpp.o
 
 common/CMakeFiles/common.dir/frame.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/frame.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/frame.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_20)
+common/CMakeFiles/common.dir/frame.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/frame.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/frame.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/frame.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/frame.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/frame.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/frame.cpp
 
 common/CMakeFiles/common.dir/frame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/frame.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/frame.cpp > CMakeFiles/common.dir/frame.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/frame.cpp > CMakeFiles/common.dir/frame.cpp.i
 
 common/CMakeFiles/common.dir/frame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/frame.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/frame.cpp -o CMakeFiles/common.dir/frame.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/frame.cpp -o CMakeFiles/common.dir/frame.cpp.s
 
 common/CMakeFiles/common.dir/frame.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/frame.cpp.o.requires
@@ -513,18 +513,18 @@ common/CMakeFiles/common.dir/frame.cpp.o.provides: common/CMakeFiles/common.dir/
 common/CMakeFiles/common.dir/frame.cpp.o.provides.build: common/CMakeFiles/common.dir/frame.cpp.o
 
 common/CMakeFiles/common.dir/framedata.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/framedata.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/framedata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_21)
+common/CMakeFiles/common.dir/framedata.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/framedata.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/framedata.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/framedata.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/framedata.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/framedata.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/framedata.cpp
 
 common/CMakeFiles/common.dir/framedata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/framedata.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/framedata.cpp > CMakeFiles/common.dir/framedata.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/framedata.cpp > CMakeFiles/common.dir/framedata.cpp.i
 
 common/CMakeFiles/common.dir/framedata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/framedata.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/framedata.cpp -o CMakeFiles/common.dir/framedata.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/framedata.cpp -o CMakeFiles/common.dir/framedata.cpp.s
 
 common/CMakeFiles/common.dir/framedata.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/framedata.cpp.o.requires
@@ -536,18 +536,18 @@ common/CMakeFiles/common.dir/framedata.cpp.o.provides: common/CMakeFiles/common.
 common/CMakeFiles/common.dir/framedata.cpp.o.provides.build: common/CMakeFiles/common.dir/framedata.cpp.o
 
 common/CMakeFiles/common.dir/cudata.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/cudata.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/cudata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_22)
+common/CMakeFiles/common.dir/cudata.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/cudata.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/cudata.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/cudata.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/cudata.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/cudata.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/cudata.cpp
 
 common/CMakeFiles/common.dir/cudata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/cudata.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/cudata.cpp > CMakeFiles/common.dir/cudata.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/cudata.cpp > CMakeFiles/common.dir/cudata.cpp.i
 
 common/CMakeFiles/common.dir/cudata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/cudata.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/cudata.cpp -o CMakeFiles/common.dir/cudata.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/cudata.cpp -o CMakeFiles/common.dir/cudata.cpp.s
 
 common/CMakeFiles/common.dir/cudata.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/cudata.cpp.o.requires
@@ -559,18 +559,18 @@ common/CMakeFiles/common.dir/cudata.cpp.o.provides: common/CMakeFiles/common.dir
 common/CMakeFiles/common.dir/cudata.cpp.o.provides.build: common/CMakeFiles/common.dir/cudata.cpp.o
 
 common/CMakeFiles/common.dir/slice.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/slice.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/slice.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_23)
+common/CMakeFiles/common.dir/slice.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/slice.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/slice.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/slice.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/slice.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/slice.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/slice.cpp
 
 common/CMakeFiles/common.dir/slice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/slice.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/slice.cpp > CMakeFiles/common.dir/slice.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/slice.cpp > CMakeFiles/common.dir/slice.cpp.i
 
 common/CMakeFiles/common.dir/slice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/slice.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/slice.cpp -o CMakeFiles/common.dir/slice.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/slice.cpp -o CMakeFiles/common.dir/slice.cpp.s
 
 common/CMakeFiles/common.dir/slice.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/slice.cpp.o.requires
@@ -582,18 +582,18 @@ common/CMakeFiles/common.dir/slice.cpp.o.provides: common/CMakeFiles/common.dir/
 common/CMakeFiles/common.dir/slice.cpp.o.provides.build: common/CMakeFiles/common.dir/slice.cpp.o
 
 common/CMakeFiles/common.dir/lowres.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/lowres.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/lowres.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_24)
+common/CMakeFiles/common.dir/lowres.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/lowres.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/lowres.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/lowres.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/lowres.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/lowres.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/lowres.cpp
 
 common/CMakeFiles/common.dir/lowres.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/lowres.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/lowres.cpp > CMakeFiles/common.dir/lowres.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/lowres.cpp > CMakeFiles/common.dir/lowres.cpp.i
 
 common/CMakeFiles/common.dir/lowres.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/lowres.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/lowres.cpp -o CMakeFiles/common.dir/lowres.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/lowres.cpp -o CMakeFiles/common.dir/lowres.cpp.s
 
 common/CMakeFiles/common.dir/lowres.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/lowres.cpp.o.requires
@@ -605,18 +605,18 @@ common/CMakeFiles/common.dir/lowres.cpp.o.provides: common/CMakeFiles/common.dir
 common/CMakeFiles/common.dir/lowres.cpp.o.provides.build: common/CMakeFiles/common.dir/lowres.cpp.o
 
 common/CMakeFiles/common.dir/piclist.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/piclist.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/piclist.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_25)
+common/CMakeFiles/common.dir/piclist.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/piclist.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/piclist.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/piclist.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/piclist.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/piclist.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/piclist.cpp
 
 common/CMakeFiles/common.dir/piclist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/piclist.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/piclist.cpp > CMakeFiles/common.dir/piclist.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/piclist.cpp > CMakeFiles/common.dir/piclist.cpp.i
 
 common/CMakeFiles/common.dir/piclist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/piclist.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/piclist.cpp -o CMakeFiles/common.dir/piclist.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/piclist.cpp -o CMakeFiles/common.dir/piclist.cpp.s
 
 common/CMakeFiles/common.dir/piclist.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/piclist.cpp.o.requires
@@ -628,18 +628,18 @@ common/CMakeFiles/common.dir/piclist.cpp.o.provides: common/CMakeFiles/common.di
 common/CMakeFiles/common.dir/piclist.cpp.o.provides.build: common/CMakeFiles/common.dir/piclist.cpp.o
 
 common/CMakeFiles/common.dir/predict.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/predict.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/predict.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_26)
+common/CMakeFiles/common.dir/predict.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/predict.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/predict.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/predict.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/predict.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/predict.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/predict.cpp
 
 common/CMakeFiles/common.dir/predict.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/predict.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/predict.cpp > CMakeFiles/common.dir/predict.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/predict.cpp > CMakeFiles/common.dir/predict.cpp.i
 
 common/CMakeFiles/common.dir/predict.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/predict.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/predict.cpp -o CMakeFiles/common.dir/predict.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/predict.cpp -o CMakeFiles/common.dir/predict.cpp.s
 
 common/CMakeFiles/common.dir/predict.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/predict.cpp.o.requires
@@ -651,18 +651,18 @@ common/CMakeFiles/common.dir/predict.cpp.o.provides: common/CMakeFiles/common.di
 common/CMakeFiles/common.dir/predict.cpp.o.provides.build: common/CMakeFiles/common.dir/predict.cpp.o
 
 common/CMakeFiles/common.dir/scalinglist.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/scalinglist.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/scalinglist.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_27)
+common/CMakeFiles/common.dir/scalinglist.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/scalinglist.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/scalinglist.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/scalinglist.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/scalinglist.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/scalinglist.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/scalinglist.cpp
 
 common/CMakeFiles/common.dir/scalinglist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/scalinglist.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/scalinglist.cpp > CMakeFiles/common.dir/scalinglist.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/scalinglist.cpp > CMakeFiles/common.dir/scalinglist.cpp.i
 
 common/CMakeFiles/common.dir/scalinglist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/scalinglist.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/scalinglist.cpp -o CMakeFiles/common.dir/scalinglist.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/scalinglist.cpp -o CMakeFiles/common.dir/scalinglist.cpp.s
 
 common/CMakeFiles/common.dir/scalinglist.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/scalinglist.cpp.o.requires
@@ -674,18 +674,18 @@ common/CMakeFiles/common.dir/scalinglist.cpp.o.provides: common/CMakeFiles/commo
 common/CMakeFiles/common.dir/scalinglist.cpp.o.provides.build: common/CMakeFiles/common.dir/scalinglist.cpp.o
 
 common/CMakeFiles/common.dir/quant.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/quant.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/quant.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_28)
+common/CMakeFiles/common.dir/quant.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/quant.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/quant.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/quant.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/quant.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/quant.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/quant.cpp
 
 common/CMakeFiles/common.dir/quant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/quant.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/quant.cpp > CMakeFiles/common.dir/quant.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/quant.cpp > CMakeFiles/common.dir/quant.cpp.i
 
 common/CMakeFiles/common.dir/quant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/quant.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/quant.cpp -o CMakeFiles/common.dir/quant.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/quant.cpp -o CMakeFiles/common.dir/quant.cpp.s
 
 common/CMakeFiles/common.dir/quant.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/quant.cpp.o.requires
@@ -697,18 +697,18 @@ common/CMakeFiles/common.dir/quant.cpp.o.provides: common/CMakeFiles/common.dir/
 common/CMakeFiles/common.dir/quant.cpp.o.provides.build: common/CMakeFiles/common.dir/quant.cpp.o
 
 common/CMakeFiles/common.dir/deblock.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/deblock.cpp.o: /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/deblock.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_29)
+common/CMakeFiles/common.dir/deblock.cpp.o: /home/italo/Documentos/memapprox/x265_2.5/source/common/deblock.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/italo/Documentos/memapprox/x265_2.5/build/linux/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object common/CMakeFiles/common.dir/deblock.cpp.o"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/deblock.cpp.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/deblock.cpp
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/deblock.cpp.o -c /home/italo/Documentos/memapprox/x265_2.5/source/common/deblock.cpp
 
 common/CMakeFiles/common.dir/deblock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/deblock.cpp.i"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/deblock.cpp > CMakeFiles/common.dir/deblock.cpp.i
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/italo/Documentos/memapprox/x265_2.5/source/common/deblock.cpp > CMakeFiles/common.dir/deblock.cpp.i
 
 common/CMakeFiles/common.dir/deblock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/deblock.cpp.s"
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/deblock.cpp -o CMakeFiles/common.dir/deblock.cpp.s
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/italo/Documentos/memapprox/x265_2.5/source/common/deblock.cpp -o CMakeFiles/common.dir/deblock.cpp.s
 
 common/CMakeFiles/common.dir/deblock.cpp.o.requires:
 .PHONY : common/CMakeFiles/common.dir/deblock.cpp.o.requires
@@ -787,10 +787,10 @@ common/CMakeFiles/common.dir/requires: common/CMakeFiles/common.dir/deblock.cpp.
 .PHONY : common/CMakeFiles/common.dir/requires
 
 common/CMakeFiles/common.dir/clean:
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : common/CMakeFiles/common.dir/clean
 
 common/CMakeFiles/common.dir/depend:
-	cd /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/italo/Documentos/pin-memapprox/x265_2.5/source /home/italo/Documentos/pin-memapprox/x265_2.5/source/common /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/italo/Documentos/memapprox/x265_2.5/build/linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/italo/Documentos/memapprox/x265_2.5/source /home/italo/Documentos/memapprox/x265_2.5/source/common /home/italo/Documentos/memapprox/x265_2.5/build/linux /home/italo/Documentos/memapprox/x265_2.5/build/linux/common /home/italo/Documentos/memapprox/x265_2.5/build/linux/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : common/CMakeFiles/common.dir/depend
 
