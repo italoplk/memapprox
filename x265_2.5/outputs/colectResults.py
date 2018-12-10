@@ -60,27 +60,11 @@ WBERS =["0"]
 
 
 
-#def work(command):
-#	print "\ncommand 2 = " + str(command) + "\n"
-#	subprocess.Popen(command, stderr=STDOUT, stdout="saida.txt", shell=True)
-	
- 
 
-
-
-
-	#os.chdir("me/") #mudar diretorio para memapprox.log
-
-
-	
-	#for f in listdir("./"):
-		
-	#	os.chdir("./" + str(f) + "/logs/")
-	#	for log in listdir("./"):
 
 for video in videos:
 	
-	arquivoEscrita = open("./leitura_Pin_Intra/"+str(video) + ".csv", "w")
+	arquivoEscrita = open("./Pin_readings_Intra/"+str(video) + ".csv", "w")
 	if len(WBERS) == 1:	
 		for qp in QPs:
 
